@@ -1,7 +1,18 @@
 # TS to MP4 Converter
 
+This Python script is specifically crafted for Jamuna Television Ltd. It's designed for daily use to efficiently convert approximately 100 video files per day, which are sent in by reporters from outdoor locations. By automating this conversion process, the script significantly streamlines the workflow for the IT team, making their work more manageable and faster.
+
 This Python script automatically converts `.ts` video files from a shared network drive folder to `.mp4` format using FFmpeg with NVIDIA GPU acceleration. It monitors the input folder, copies files locally for processing, and handles errors with retries.
 
+
+**Target PC Configuration:**
+
+* **Processor:** 13th Gen Intel(R) Core(TM) i7-13700 @ 2.10 GHz
+* **RAM:** 32.0 GB
+* **Graphics:** NVIDIA GeForce RTX 4060 Ti
+* **OS:** Windows 11 Version 24H2
+
+  
 ## Prerequisites
 
 1.  **FFmpeg:** Version 7.1.1 installed and its `bin` directory added to your system's PATH.
